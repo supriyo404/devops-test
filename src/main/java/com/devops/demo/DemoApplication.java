@@ -18,6 +18,6 @@ public class DemoApplication {
 	@GetMapping("/test")
 	public ResponseEntity<?> testThisMethod(){
 
-		return ResponseEntity.ok("Hi this test has run Successfully..");
+		return ResponseEntity.ok("Hi test has run Successfully..");
 	}
 }
